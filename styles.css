@@ -22,7 +22,7 @@ body {
 .container {
     margin: 0 auto;
     background-color: var(--Very-Dark-Blue);
-    width: 44%;
+    width: 45%;
     padding: 1.5rem;
     border-radius: 1rem;
     display: flex;
@@ -51,7 +51,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 600;
 }
 .hover:hover {
@@ -71,7 +71,7 @@ body {
     font-size: 0.9375rem;
 }
 .text-1 {
-    font-size: 14px;
+    font-size: 0.875rem;
     color: var(--Light-Grey);
 }
 
@@ -104,7 +104,7 @@ body {
     width: fit-content;
     align-self: center;
     padding: 0.3rem 1.2rem;
-    font-size: 13px;
+    font-size: 0.8125rem;
     border-radius: 1.5rem;
     color: var(--Orange);
     background-color: var(--Dark-Blue);
@@ -118,4 +118,70 @@ body {
     width: fit-content;
     height: 6.5rem;
     align-self: center;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .container {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .container {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .container {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .container {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 410px) {
+    .container {
+        width: 92%;
+    }
+}
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 14px;
+    }
+    .container {
+        width: 94%;
+    }
+}
+@media screen and (max-width: 345px) {
+    .container {
+        width: 96%;
+    }
+}
+@media screen and (max-width: 325px) {
+    .html {
+        font-size: 12px;
+    }
 }
