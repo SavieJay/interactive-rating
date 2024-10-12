@@ -1,0 +1,121 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --Orange: hsl(25, 97%, 53%);
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: var(--White);
+    font-family: "Overpass", sans-serif;
+    padding: 2rem;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: var(--Very-Dark-Blue);
+    width: 44%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-btn {
+    background-color: var(--Dark-Blue);
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+.hover:hover {
+    color: var(--Very-Dark-Blue);
+    background-color: var(--Orange);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header {
+    font-size: 1.8rem;
+    line-height: 7px;
+    font-weight: 700;
+}
+
+.text {
+    font-size: 0.9375rem;
+}
+.text-1 {
+    font-size: 14px;
+    color: var(--Light-Grey);
+}
+
+.active {
+    background-color: #fff;
+    color: var(--Very-Dark-Blue);
+}
+
+.submit {
+    background-color: var(--Orange);
+    color: var(--Very-Dark-Blue);
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: var(--White);
+    transition: .5s linear;
+}
+
+.center {
+    text-align: center;
+}
+
+.rate-box {
+    width: fit-content;
+    align-self: center;
+    padding: 0.3rem 1.2rem;
+    font-size: 13px;
+    border-radius: 1.5rem;
+    color: var(--Orange);
+    background-color: var(--Dark-Blue);
+}
+
+.pad {
+    padding-block: 2.5rem;
+}
+
+.thanks-img img, .thanks-img {
+    width: fit-content;
+    height: 6.5rem;
+    align-self: center;
+}
