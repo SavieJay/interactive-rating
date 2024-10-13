@@ -28,6 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+    transition: .5s;
 }
 
 .section {
@@ -59,6 +60,9 @@ body {
     background-color: var(--Orange);
     cursor: pointer;
     transition: 0.3s;
+}
+.hover:not(:hover) {
+    transition: .3s;
 }
 
 .header {
@@ -94,6 +98,10 @@ body {
 .submit:hover {
     background-color: var(--White);
     transition: .5s linear;
+}
+.submit:not(:hover) {
+    transition: .5s linear;
+
 }
 
 .center {
